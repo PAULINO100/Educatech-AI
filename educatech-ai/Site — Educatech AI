@@ -1,0 +1,109 @@
+## 7️⃣ SITE (PRIVADO)
+### `educatech-ai/site`
+
+```markdown
+# 🌐 Site — Educatech AI
+
+**Portal institucional da Educatech AI**
+
+[![Status](https://img.shields.io/badge/status-produção-green)](.)
+[![Versão](https://img.shields.io/badge/versão-v1.0-blue)](.)
+[![i18n](https://img.shields.io/badge/i18n-PT--BR%7CEN%7CES-orange)](.)
+[![Acesso](https://img.shields.io/badge/acesso-privado-red)](.)
+
+---
+
+## 🔒 Repositório Privado
+
+Este repositório contém código fonte proprietário da Educatech AI.
+
+**Acesso restrito a:**
+- Fundadores
+- Equipe técnica autorizada
+- Auditores sob NDA
+
+---
+
+## 🎯 Visão Geral
+
+O Site Educatech AI é o portal institucional que apresenta:
+
+- ✅ Visão, missão e valores da empresa
+- ✅ Ecossistema de produtos (ZK-ID, Civitas)
+- ✅ Documentação pública
+- ✅ Hash Registry
+- ✅ Contato para investidores e parceiros
+- ✅ Internacionalização nativa (PT-BR, EN, ES)
+
+---
+
+## 🏗️ Arquitetura
+
+```
+┌─────────────────────────────────────────────────────────┐
+│                  Site Educatech AI                      │
+├─────────────────────────────────────────────────────────┤
+│  Header: Navigation + Locale Selector                   │
+│  Hero: Headline + CTAs                                  │
+│  Products: ZK-ID, Civitas Inst., Civitas Gov.           │
+│  Technology: ZK Proofs, Hash Registry, Compliance       │
+│  About: Mission, Origin, Principles                     │
+│  Docs: Architecture, Governance, Compliance, MOU        │
+│  Contact: Founder, Email, Data Room                     │
+│  Footer: Legal, Links                                   │
+└─────────────────────────────────────────────────────────┘
+```
+
+---
+
+## 🌍 Internacionalização
+
+- **Idiomas:** PT-BR, EN, ES
+- **Persistência:** localStorage (`educatech_locale`)
+- **Troca Instantânea:** Sem recarregar página
+- **Status:** ✅ 85% Completo (funcional para produção)
+
+---
+
+## 📊 Status de Desenvolvimento
+
+| Componente | Status |
+|------------|--------|
+| Conteúdo Institucional | ✅ 100% |
+| i18n Dicionários | ✅ 100% |
+| i18n Locale Context | ✅ 100% |
+| i18n Persistência | ✅ 100% |
+| i18n Troca Instantânea | ✅ 100% |
+| i18n Textos Hardcoded | ⚠️ 85% |
+| i18n Acessibilidade | ⚠️ 80% |
+
+**Maturidade Geral: 90%**
+
+---
+
+## 📄 Documentação
+
+Documentação completa disponível em:
+
+👉 [`educatech-ai/documentation/prd/site-prd.md`](https://github.com/educatech-ai/documentation)
+
+---
+
+## 📧 Contato Interno
+
+| Função | Email |
+|--------|-------|
+| **Tech Lead** | [tech@educatech.ai](mailto:tech@educatech.ai) |
+| **Marketing** | [marketing@educatech.ai](mailto:marketing@educatech.ai) |
+
+---
+
+## ⚠️ Aviso de Confidencialidade
+
+Este repositório contém propriedade intelectual proprietária da Educatech AI LTDA.
+
+- ❌ Não compartilhar fora da equipe autorizada
+- ❌ Não copiar para repositórios pessoais
+- ❌ Não expor em ambientes públicos
+
+© 2026 Educatech AI LTDA. Todos os direitos reservados.

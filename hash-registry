@@ -1,0 +1,32 @@
+# 🔐 Hash Registry — Educatech AI
+
+## Propósito
+
+Registrar hashes SHA-256 de todos documentos institucionais para:
+1. Prova de anterioridade de Propriedade Intelectual
+2. Integridade documental verificável publicamente
+3. Transparência para investidores e parceiros
+
+---
+
+## Documentos Registrados
+
+| # | Documento | Versão | Hash SHA-256 | Data |
+|---|-----------|--------|--------------|------|
+| 1 | Founder Strategy Memo | v1.1 | `09e9245ce5372bf3d9fb6372e9294ac317f9644b1a5e48486f0dc3db8d608ffa` | 2026-03 |
+| 2 | Architecture Overview | v2.0 | `[hash]` | 2026-03 |
+| 3 | Governance Framework | v1.0 | `[hash]` | 2026-03 |
+| 4 | Compliance Matrix LATAM | v1.0 | `[hash]` | 2026-03 |
+| 5 | MOU Template | v1.1 | `[hash]` | 2026-03 |
+| 6 | One-Pager Investidor | v1.2 | `[hash]` | 2026-03 |
+| 7 | Pitch Deck | v1.1 | `[hash]` | 2026-03 |
+| 8 | Baseline Pós-Piloto | v1.0 | `[hash]` | 2026-03 |
+| 9 | Valuation LATAM | v1.0 | `[hash]` | 2026-03 |
+| 10 | Security & Threat Model | v1.0 | `[hash]` | 2026-03 |
+
+---
+
+## Como Verificar
+
+```bash
+sha256sum [nome-do-arquivo].pdf

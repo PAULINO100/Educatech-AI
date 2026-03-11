@@ -1,0 +1,118 @@
+
+## 6️⃣ CIVITAS GOVERNAMENTAL (PRIVADO)
+### `educatech-ai/civitas-governamental`
+
+```markdown
+# 🗳️ CivitasVote Governamental
+
+**Processos eleitorais verificáveis com máquina de estados formal e Hash Registry público**
+
+[![Status](https://img.shields.io/badge/status-produção-green)](.)
+[![Versão](https://img.shields.io/badge/versão-v1.0-blue)](.)
+[![i18n](https://img.shields.io/badge/i18n-PT--BR%7CEN%7CES-orange)](.)
+[![Acesso](https://img.shields.io/badge/acesso-privado-red)](.)
+
+---
+
+## 🔒 Repositório Privado
+
+Este repositório contém código fonte proprietário da Educatech AI.
+
+**Acesso restrito a:**
+- Fundadores
+- Equipe técnica autorizada
+- Auditores sob NDA
+
+---
+
+## 🎯 Visão Geral
+
+CivitasVote Governamental é uma plataforma para:
+
+- ✅ Processos eleitorais verificáveis
+- ✅ Máquina de estados formal (GovernanceLayer)
+- ✅ Snapshot Module (imutabilidade pós-publicação)
+- ✅ Audit Trail integrado ao Hash Registry
+- ✅ Compliance nativo com legislação eleitoral LATAM
+
+---
+
+## 🏗️ Arquitetura
+
+```
+┌─────────────────────────────────────────────────────────┐
+│              CivitasVote Governamental                  │
+├─────────────────────────────────────────────────────────┤
+│  State Machine Formal (GovernanceLayer)                 │
+│  Snapshot Module (Imutabilidade)                        │
+│  Audit Trail (Hash Registry)                            │
+│  Rate Limiting (9 endpoints)                            │
+│  Frontend Interceptor                                   │
+└─────────────────────────────────────────────────────────┘
+```
+
+---
+
+## 🌍 Internacionalização
+
+- **Idiomas:** PT-BR, EN, ES
+- **Persistência:** localStorage (`educatech_locale`)
+- **Hierarquia:** user.preferredLocale → institution.defaultLocale → pt-BR
+- **Status:** ✅ 100% Completo
+
+---
+
+## 🛡️ Segurança
+
+| Camada | Proteção | Status |
+|--------|----------|--------|
+| State Machine | GovernanceLayer | ✅ |
+| Snapshot Module | Imutabilidade | ✅ |
+| Audit Trail | Hash Registry | ✅ |
+| Rate Limiting | 9 endpoints | ✅ |
+| Frontend Interceptor | Toast + Banner | ✅ |
+
+---
+
+## 📊 Status de Desenvolvimento
+
+| Componente | Status |
+|------------|--------|
+| Core (State Machine) | ✅ 100% |
+| i18n (Todos testes) | ✅ 100% |
+| Segurança | ✅ 100% |
+| Documentação | ✅ 100% |
+
+**Maturidade Geral: 100%** ⭐
+
+---
+
+## 📄 Documentação
+
+Documentação completa disponível em:
+
+👉 [`educatech-ai/documentation/prd/civitas-gov-prd.md`](https://github.com/educatech-ai/documentation)
+
+---
+
+## 📧 Contato Interno
+
+| Função | Email |
+|--------|-------|
+| **Tech Lead** | [tech@educatech.ai](mailto:tech@educatech.ai) |
+| **Security** | [security@educatech.ai](mailto:security@educatech.ai) |
+
+---
+
+## ⚠️ Aviso de Confidencialidade
+
+Este repositório contém propriedade intelectual proprietária da Educatech AI LTDA.
+
+- ❌ Não compartilhar fora da equipe autorizada
+- ❌ Não copiar para repositórios pessoais
+- ❌ Não expor em ambientes públicos
+
+© 2026 Educatech AI LTDA. Todos os direitos reservados.
+```
+
+---

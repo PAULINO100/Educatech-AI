@@ -1,0 +1,41 @@
+## 1️⃣ REPOSITÓRIO PRINCIPAL (PÚBLICO)
+### `educatech-ai/educatech-ai`
+
+```markdown
+# 🌐 Educatech AI
+
+**Infraestrutura Soberana de Confiança Digital para América Latina**
+
+[![Maturidade](https://img.shields.io/badge/maturidade-95%25-green)](https://github.com/educatech-ai)
+[![i18n](https://img.shields.io/badge/i18n-PT--BR%7CEN%7CES-blue)](https://github.com/educatech-ai)
+[![Compliance](https://img.shields.io/badge/compliance-LGPD%20%7C%20LATAM-orange)](https://github.com/educatech-ai/documentation)
+[![Licença](https://img.shields.io/badge/licença-All%20Rights%20Reserved-red)](LICENSE)
+
+---
+
+## 🎯 Missão
+
+> Provar que algo aconteceu com integridade — sem precisar confiar na palavra de quem executou.
+
+Construímos infraestrutura digital soberana para América Latina, combinando:
+- 🔐 **Zero-Knowledge Proofs** para privacidade
+- 📜 **Hash Registry Público** para integridade verificável
+- ⚖️ **Compliance by Design** para LGPD e regulamentações LATAM
+- 🌍 **Internacionalização Nativa** (PT-BR, EN, ES)
+
+---
+
+## 🏗️ Ecossistema
+
+| Projeto | Descrição | Status | Repositório |
+|---------|-----------|--------|-------------|
+| 🔑 **ZK-ID** | Identidade digital soberana com ZK Proofs | ✅ Produção | `privado` |
+| 🏛️ **CivitasVote Institucional** | Pesquisas auditáveis e governança | ✅ Produção | `privado` |
+| 🗳️ **CivitasVote Governamental** | Processos eleitorais verificáveis | ✅ Produção | `privado` |
+| 🌐 **Site** | Portal institucional | ✅ Produção | `privado` |
+
+---
+
+## 📊 Maturidade do Ecossistema
+
+```

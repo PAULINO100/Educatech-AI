@@ -1,0 +1,28 @@
+educatech-ai/documentation/
+├── README.md                    # Visão geral do ecossistema
+├── architecture/
+│   ├── overview-v2.0.pdf        # Architecture Overview
+│   ├── diagrams/                # Diagramas públicos (sem detalhes de implementação)
+│   └── invariants.md            # 7 Invariantes Arquiteturais
+├── governance/
+│   ├── framework-v1.0.pdf       # Governance Framework
+│   ├── principles.md            # Princípios G1-G5
+│   └── decision-log.md          # Decisões D1-D4
+├── compliance/
+│   ├── latam-matrix-v1.0.pdf    # Compliance Matrix LATAM
+│   ├── lgpd-policy.md           # Política LGPD
+│   └── dpo-appointment.md       # Nomeação DPO
+├── investment/
+│   ├── one-pager-v1.2.pdf       # One-Pager Investidor
+│   ├── pitch-deck-v1.1.pdf      # Pitch Deck
+│   └── valuation-v1.0.pdf       # Valuation (sob NDA - placeholder)
+├── prd/
+│   ├── zk-id-prd.md             # PRD ZK-ID (resumo público)
+│   ├── civitas-inst-prd.md      # PRD Civitas Inst. (resumo público)
+│   ├── civitas-gov-prd.md       # PRD Civitas Gov. (resumo público)
+│   └── site-prd.md              # PRD Site (resumo público)
+├── security/
+│   ├── threat-model-v1.0.pdf    # Security & Threat Model
+│   └── security-principles.md   # Princípios de segurança
+└── hashes/
+    └── registry.md              # Hashes SHA-256 de todos documentos

@@ -39,3 +39,126 @@ Construímos infraestrutura digital soberana para América Latina, combinando:
 ## 📊 Maturidade do Ecossistema
 
 ```
+┌─────────────────────────────────────────────────────────┐
+│  EDUCATECH AI — MATURIDADE · MARÇO 2026                │
+├─────────────────────────────────────────────────────────┤
+│  Técnica           ████████████████████  95%           │
+│  Documentação      ████████████████████  100%          │
+│  Segurança         ████████████████████  100%          │
+│  i18n (EN+ES)      ██████████████████░░  89%           │
+│  Compliance LATAM  █████████████████░░░  85%           │
+├─────────────────────────────────────────────────────────┤
+│  MÉDIA GERAL                           95%             │
+└─────────────────────────────────────────────────────────┘
+```
+
+---
+
+## 🛡️ Segurança por Design
+
+| Camada | Proteção | Status |
+|--------|----------|--------|
+| **Write Enforcement** | 3 camadas (policy + wrapper + Prisma) | ✅ |
+| **Rate Limiting** | Todos endpoints protegidos | ✅ |
+| **Frontend Interceptor** | Toast + Banner para usuário | ✅ |
+| **PII Zero no Backend** | Invariante I4 verificado | ✅ |
+| **Hash Registry** | SHA-256 público para integridade | ✅ |
+
+---
+
+## 🌍 Internacionalização
+
+- **3 Idiomas Nativos:** PT-BR, EN, ES
+- **Hierarquia de Locale:** usuário → instituição → default
+- **Persistência:** localStorage com chave `educatech_locale`
+- **Troca Instantânea:** Sem recarregar página
+
+---
+
+## 📄 Documentação Pública
+
+Toda documentação institucional está disponível em:
+
+👉 [`educatech-ai/documentation`](https://github.com/educatech-ai/documentation)
+
+| Documento | Versão | Status |
+|-----------|--------|--------|
+| Architecture Overview | v2.0 | ✅ Público |
+| Governance Framework | v1.0 | ✅ Público |
+| Compliance Matrix LATAM | v1.0 | ✅ Público |
+| Security & Threat Model | v1.0 | ✅ Público |
+| One-Pager Investidor | v1.2 | ✅ Público |
+| Pitch Deck | v1.1 | ✅ Sob NDA |
+
+---
+
+## 🔐 Hash Registry
+
+Hashes SHA-256 de todos documentos para prova de anterioridade:
+
+👉 [`educatech-ai/hash-registry`](https://github.com/educatech-ai/hash-registry)
+
+```bash
+# Verificar integridade de documento
+sha256sum architecture-overview-v2.0.pdf
+```
+
+---
+
+## 📧 Contato
+
+| Função | Nome | Email |
+|--------|------|-------|
+| **Fundador/CTO** | Ortunio Paulino dos Santos | [contato@educatech.ai](mailto:contato@educatech.ai) |
+| **DPO** | Ortunio Paulino dos Santos | [dpo@educatech.ai](mailto:dpo@educatech.ai) |
+
+**Data Room:** Disponível sob NDA para investidores qualificados.
+
+---
+
+## ⚖️ Informações Legais
+
+| Item | Detalhe |
+|------|---------|
+| **Entidade** | Educatech AI LTDA (Belém-PA, Brasil) |
+| **CNPJ** | [Em constituição] |
+| **DPO** | Ortunio Paulino dos Santos |
+| **Compliance** | LGPD, LAI, Marco Civil |
+| **Jurisdições** | 🇧🇷 🇦🇷 🇨🇱 🇨🇴 🇲🇽 🇵🇪 |
+
+---
+
+## 🏆 Conquistas
+
+- ✅ **2 Projetos 100% Completos** (Civitas Institucional + Governamental)
+- ✅ **100% Documentação Institucional** (10 documentos + 4 PRD.md)
+- ✅ **100% Segurança Implementada** (5 camadas de defesa)
+- ✅ **89% i18n LATAM** (PT-BR, EN, ES operacionais)
+- ✅ **95% Maturidade Geral** (excepcional para estágio pré-receita)
+
+---
+
+## 📍 Origem
+
+**Construído na Amazônia, para América Latina.** 🌳
+
+Nascidos em Belém-PA, construímos infraestrutura digital soberana com perspectiva regional e padrões globais.
+
+---
+
+## ©️ Licença
+
+© 2026 Educatech AI LTDA. Todos os direitos reservados.
+
+- **Documentação:** CC BY-NC-ND 4.0
+- **Código Fonte:** Proprietário (todos os direitos reservados)
+- **Hashes:** MIT (públicos por natureza)
+
+---
+
+[![Website](https://img.shields.io/badge/website-educatech.ai-blue)](https://educatech.ai)
+[![LinkedIn](https://img.shields.io/badge/linkedin-educatech--ai-0077b5)](https://linkedin.com/company/educatech-ai)
+[![Email](https://img.shields.io/badge/email-contato@educatech.ai-red)](mailto:contato@educatech.ai)
+```
+
+---

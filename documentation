@@ -26,3 +26,177 @@ educatech-ai/documentation/
 │   └── security-principles.md   # Princípios de segurança
 └── hashes/
     └── registry.md              # Hashes SHA-256 de todos documentos
+
+## 2️⃣ DOCUMENTAÇÃO (PÚBLICO)
+### `educatech-ai/documentation`
+
+```markdown
+# 📚 Documentação — Educatech AI
+
+**Documentação institucional e técnica pública**
+
+[![Documentação](https://img.shields.io/badge/documentação-100%25-green)](.)
+[![Versão](https://img.shields.io/badge/versão-v2.0-blue)](.)
+[![Licença](https://img.shields.io/badge/licença-CC%20BY--NC--ND%204.0-orange)](LICENSE)
+
+---
+
+## 📋 Índice
+
+| Pasta | Conteúdo |
+|-------|----------|
+| [`/architecture`](./architecture/) | Architecture Overview, diagramas, invariantes |
+| [`/governance`](./governance/) | Governance Framework, princípios, decision log |
+| [`/compliance`](./compliance/) | Compliance Matrix LATAM, LGPD, DPO |
+| [`/investment`](./investment/) | One-Pager, Pitch Deck, Valuation |
+| [`/prd`](./prd/) | PRDs de todos projetos (resumos públicos) |
+| [`/security`](./security/) | Threat Model, princípios de segurança |
+| [`/hashes`](./hashes/) | Hash Registry SHA-256 |
+
+---
+
+## 🏗️ Architecture Overview v2.0
+
+### Visão Geral
+
+```
+┌─────────────────────────────────────────────────────────┐
+│                    EDUCATECH AI                         │
+├─────────────────────────────────────────────────────────┤
+│  🔑 ZK-ID           → Identidade Digital Soberana      │
+│  🏛️ Civitas Inst.   → Pesquisas e Governança          │
+│  🗳️ Civitas Gov.    → Processos Eleitorais            │
+│  🌐 Site            → Portal Institucional             │
+└─────────────────────────────────────────────────────────┘
+```
+
+### 7 Invariantes Arquiteturais
+
+| ID | Invariante | Status |
+|----|-----------|--------|
+| **I1** | Imutabilidade de Resultados PUBLISHED | ✅ |
+| **I2** | Audit Trail Completo | ✅ |
+| **I3** | Separação de Responsabilidades (L1/L2/L3) | ✅ |
+| **I4** | PII Zero no Backend | ✅ |
+| **I5** | Hash Registry Público | ✅ |
+| **I6** | Compliance by Design | ✅ |
+| **I7** | Write Enforcement 3 Camadas | ✅ |
+
+📄 [Ver Architecture Overview v2.0 PDF](./architecture/overview-v2.0.pdf)
+
+---
+
+## ⚖️ Governance Framework v1.0
+
+### Princípios de Governança (G1-G5)
+
+| Princípio | Descrição |
+|-----------|-----------|
+| **G1** | Transparência Verificável |
+| **G2** | Soberania de Dados |
+| **G3** | Compliance by Design |
+| **G4** | Internacionalização Nativa |
+| **G5** | Origem Amazônica Permanente |
+
+### Níveis de Decisão (L1/L2/L3)
+
+| Nível | Escopo | Responsável |
+|-------|--------|-------------|
+| **L1** | Estratégico (visão, missão, valuation) | Fundador |
+| **L2** | Tático (arquitetura, segurança, compliance) | CTO |
+| **L3** | Operacional (implementação, testes, deploy) | Eng. Chefe |
+
+📄 [Ver Governance Framework v1.0 PDF](./governance/framework-v1.0.pdf)
+
+---
+
+## 🌍 Compliance Matrix LATAM v1.0
+
+### Jurisdições Cobertas
+
+| País | Lei de Proteção de Dados | Status |
+|------|-------------------------|--------|
+| 🇧🇷 Brasil | LGPD (Lei 13.709/2018) | ✅ Aderente |
+| 🇦🇷 Argentina | Ley 25.326 | ✅ Aderente |
+| 🇨🇱 Chile | Ley 19.628 | ⚠️ Atenção (nova lei em trâmite) |
+| 🇨🇴 Colômbia | Ley 1581 | ✅ Aderente |
+| 🇲🇽 México | LFPDPPP | ⚠️ Aviso de Privacidad requerido |
+| 🇵🇪 Peru | Ley 29733 | ✅ Aderente |
+
+📄 [Ver Compliance Matrix LATAM v1.0 PDF](./compliance/latam-matrix-v1.0.pdf)
+
+---
+
+## 💰 Investment Materials
+
+| Documento | Versão | Acesso |
+|-----------|--------|--------|
+| One-Pager Investidor | v1.2 | ✅ Público |
+| Pitch Deck | v1.1 | 🔒 Sob NDA |
+| Valuation LATAM | v1.0 | 🔒 Data Room |
+| MOU Template | v1.1 | ✅ Público |
+
+📄 [Ver One-Pager v1.2 PDF](./investment/one-pager-v1.2.pdf)
+
+---
+
+## 📊 Product Requirements Documents (PRD)
+
+| Projeto | PRD | Status |
+|---------|-----|--------|
+| 🔑 ZK-ID | [PRD.md](./prd/zk-id-prd.md) | ✅ Público (resumo) |
+| 🏛️ Civitas Institucional | [PRD.md](./prd/civitas-inst-prd.md) | ✅ Público (resumo) |
+| 🗳️ Civitas Governamental | [PRD.md](./prd/civitas-gov-prd.md) | ✅ Público (resumo) |
+| 🌐 Site | [PRD.md](./prd/site-prd.md) | ✅ Público (resumo) |
+
+---
+
+## 🛡️ Security & Threat Model v1.0
+
+### Camadas de Segurança
+
+```
+┌─────────────────────────────────────────────────────────┐
+│  CAMADA 1: Policy Layer (Prisma)                        │
+├─────────────────────────────────────────────────────────┤
+│  CAMADA 2: Wrapper Layer (API)                          │
+├─────────────────────────────────────────────────────────┤
+│  CAMADA 3: Interceptor Layer (Frontend)                 │
+├─────────────────────────────────────────────────────────┤
+│  CAMADA 4: Rate Limiting (Todos endpoints)              │
+├─────────────────────────────────────────────────────────┤
+│  CAMADA 5: Hash Registry (Integridade documental)       │
+└─────────────────────────────────────────────────────────┘
+```
+
+📄 [Ver Security & Threat Model v1.0 PDF](./security/threat-model-v1.0.pdf)
+
+---
+
+## 🔐 Hash Registry
+
+Todos documentos possuem hash SHA-256 registrado publicamente:
+
+👉 [Ver Hash Registry](./hashes/registry.md)
+
+---
+
+## 📧 Contato para Investidores
+
+| Função | Email |
+|--------|-------|
+| **Investimentos** | [invest@educatech.ai](mailto:invest@educatech.ai) |
+| **Parcerias** | [partners@educatech.ai](mailto:partners@educatech.ai) |
+| **Imprensa** | [press@educatech.ai](mailto:press@educatech.ai) |
+
+---
+
+## ©️ Licença
+
+Esta documentação está sob licença **CC BY-NC-ND 4.0**.
+
+- ✅ Pode compartilhar com atribuição
+- ❌ Não pode usar comercialmente
+- ❌ Não pode criar derivados
+
+© 2026 Educatech AI LTDA. Todos os direitos reservados.
